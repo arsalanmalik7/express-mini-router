@@ -1,8 +1,40 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
 }
 #heading{
     background-color: aliceblue;
     padding: 1rem;
     border-radius: 1rem;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+#v1, #v2{
+    list-style: none;
+}
+#v1 li, #v2 li{
+    padding: 0.4rem;
+    background-color: rgb(170, 230, 200);
+    margin-top: 0.3rem;
+    border-radius: 12px;
+}
+#v1 li:hover, #v2 li:hover{
+    background-color: rgb(120, 228, 174);
+
+}
+
+#allAPIs{
+    display: flex;
+    justify-content: space-around;
+}
+#content{
+    border: 3px solid rgb(27, 26, 26);
+    overflow-x: hidden;
+    margin: 0.5rem;
+}
+
+#result{
+    text-align: center;
 }
